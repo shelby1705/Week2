@@ -44,6 +44,12 @@ namespace CST8219 {
 
 }//End of nameSpace
 
+
+//Destructor
+    ~vehicle(){
+    cout << "In Destructor" << endl;
+}//End of Destructor
+
 //Main
 int main(int argc, char** argv) {
 
