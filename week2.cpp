@@ -51,9 +51,10 @@ namespace CST8219 {
 }//End of Destructor
 
 //Main
-int main(int argc, char** argv) {
+    int main(int argc, char** argv) {
 
-  
-    cout << "I made a vehicle" << endl;
-    return 0;
-}//End of main
+        CST8219 vehicle();
+        cout << "I made a vehicle" << endl;
+        return 0;
+
+    }//End of main
