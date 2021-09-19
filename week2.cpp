@@ -53,7 +53,7 @@ namespace CST8219 {
 //Main
     int main(int argc, char** argv) {
 
-        CST8219 vehicle();
+        CST8219 vehicle(4);
         cout << "I made a vehicle" << endl;
         return 0;
 
