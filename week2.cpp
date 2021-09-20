@@ -37,23 +37,24 @@ namespace CST8219 {
         
         }//End of constructor c
 
-       
+     //Destructor
+        ~vehicle() {
+            cout << "In Destructor" << endl;
+        }//End of Destructor
 
     };//End of vehicle class
+
 
 
 }//End of nameSpace
 
 
-//Destructor
-    ~vehicle(){
-    cout << "In Destructor" << endl;
-}//End of Destructor
+
 
 //Main
     int main(int argc, char** argv) {
 
-        CST8219 vehicle(4,2);
+        CST8219 :: vehicle vehicle(4,2);
         cout << "I made a vehicle" << endl;
         return 0;
 
